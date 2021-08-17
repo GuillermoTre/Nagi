@@ -23,7 +23,7 @@ function returnNumbers(req,res){
     }
     console.log(result);
 
-    return res.status(200).json('done');
+    return res.status(200).json({array: result});
 }
 
 module.exports = {returnNumbers};
