@@ -2,8 +2,8 @@
 
 function returnNumbers(req,res){
 
-    var palabras = ["TI", "Music", "Musical"];
-    var result = [];
+    let palabras = ["TI", "Music", "Musical"];
+    let result = [];
     for (i = 1; i <= 100; i++) {
     if (i % 3 == 0 || i % 5 == 0) {
         //Validate if only one number(3) is multiple if yes value = 1
@@ -19,6 +19,7 @@ function returnNumbers(req,res){
             );
         continue;
     }
+    //if its not a multiple of 3 or 5 push the number into the array
     result.push(i);
     }
     console.log(result);
