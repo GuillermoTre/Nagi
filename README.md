@@ -29,7 +29,7 @@ install Node
 -Node can be installed from the following link https://nodejs.org/es/download/
 
 install dependencies
--Run npm install to 
+-Run npm install
 
 Start backend:
 -node app.js
