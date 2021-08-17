@@ -1,0 +1,31 @@
+{
+  "name": "nagi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^9.0.3",
+    "mochawesome": "^6.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": " mocha --timeout 9000 --exit --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillermoTre/Nagi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillermoTre/Nagi/issues"
+  },
+  "homepage": "https://github.com/GuillermoTre/Nagi#readme"
+}
