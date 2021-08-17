@@ -26,7 +26,7 @@ Create a repository on GitLab, GitHub or any other similar service and just send
 Instructions:
 
 install Node
--Node can be install from the following link https://nodejs.org/es/download/
+-Node can be installed from the following link https://nodejs.org/es/download/
 
 install dependencies
 -Run npm install to 
