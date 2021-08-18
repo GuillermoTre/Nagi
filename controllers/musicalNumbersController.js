@@ -2,7 +2,7 @@
 
 function returnNumbers(req,res){
 
-    let palabras = ["TI", "Music", "Musical"];
+    const palabras = ["TI", "Music", "Musical"];
     let result = [];
     for (i = 1; i <= 100; i++) {
     if (i % 3 == 0 || i % 5 == 0) {
